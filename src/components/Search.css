@@ -1,0 +1,42 @@
+.search-wrapper h1{
+    margin: 10px 20px;
+    padding: 0;
+    color: #2e2e2e;
+    font-size: 24px;
+}
+
+.search-wrapper input[type="text"] {
+    width: 70%;
+    height: 50px;
+    padding: 0 16px;
+    color: #000;
+    border: 2px #6d6d6d solid;
+    font-size: 16px;
+}
+
+.search-wrapper input[type="text"]:focus {
+    outline: 1px solid #008080;
+}
+
+.search-wrapper input[type="text"]::placeholder {
+    color: #000;
+    font-size: 16px;
+}
+
+.search-wrapper button {
+    background-color: #008080;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 50px;
+    border: 1px solid #008080;
+    cursor: pointer;
+}
+
+.search-wrapper button:hover {
+    opacity: 0.8;
+    transition: .8s;
+    background-color: #004c4c;
+}
